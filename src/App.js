@@ -27,9 +27,8 @@ function App() {
             ></Route>
 
             <Route path='/about' element={<AboutPage />} />
-
-            {/* <AboutIconLink /> */}
           </Routes>
+          <AboutIconLink />
         </div>
       </Router>
     </FeedbackProvider>
